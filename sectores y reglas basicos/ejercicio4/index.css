@@ -1,0 +1,9 @@
+img{
+    width: auto;
+    height: 300px;
+    border: 2px red solid;
+    margin: 20px;
+}
+.centrar-texto{
+    text-align: center;
+}
