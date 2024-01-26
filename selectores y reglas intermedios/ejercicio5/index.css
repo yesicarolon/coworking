@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.theme-toggle {
+    display: none;
+}
+
+.theme-label {
+    display: inline-block;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.theme-toggle:checked + .theme-label {
+    background-color: #e74c3c;
+}
+
+.theme-toggle:checked ~ body {
+    background-color: #333;
+    color: #fff;
+}
